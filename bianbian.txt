@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BianBian Studio｜手作娃娃</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-pink-100 font-sans text-gray-800">
+
+  <!-- 導覽列 -->
+  <header class="bg-pink-300 p-4 shadow-md">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-xl font-bold">BianBian Studio</h1>
+      <nav class="space-x-4">
+        <a href="#story" class="hover:underline">品牌故事</a>
+        <a href="#series" class="hover:underline">系列介紹</a>
+        <a href="#products" class="hover:underline">商品介紹</a>
+        <a href="#contact" class="hover:underline">聯絡方式</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 首頁 Banner -->
+  <section class="bg-pink-200 py-12 text-center">
+    <h2 class="text-4xl font-bold mb-4">每一針一線，都是可愛的靈魂</h2>
+    <p class="text-lg">以手作娃娃，傳遞溫柔與搞怪的創意</p>
+  </section>
+
+  <!-- 品牌故事 -->
+  <section id="story" class="py-12 px-6 bg-white">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold mb-4">品牌故事</h2>
+      <p class="text-lg leading-relaxed">
+        BianBian Studio 成立於2023年，由一位熱愛布藝與插畫的女孩創立。
+        每一隻娃娃從設計、打版到縫製都親力親為，帶有濃濃的個性與情感。
+        品牌主打「可愛 × 搞怪 × 溫暖」，希望讓每位擁有娃娃的人，都能找到屬於自己的陪伴與療癒。
+      </p>
+    </div>
+  </section>
+
+  <!-- 系列介紹 -->
+  <section id="series" class="py-12 px-6 bg-pink-50">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold mb-6">系列介紹</h2>
+      <ul class="space-y-6">
+        <li>
+          <h3 class="text-xl font-semibold">搞怪動物園系列</h3>
+          <p>靈感來自日常中被忽略的動物，加入俏皮表情與意想不到的配色，是最適合收藏的奇妙朋友！</p>
+        </li>
+        <li>
+          <h3 class="text-xl font-semibold">怪怪星球系列</h3>
+          <p>來自遙遠宇宙的小生物，每一隻都有自己的小秘密與個性，是送給自己的最佳療癒禮物。</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 商品介紹 -->
+  <section id="products" class="py-12 px-6 bg-white">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl font-bold mb-6">商品介紹</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-pink-100 p-4 rounded-lg shadow">
+          <img src="https://via.placeholder.com/300" alt="娃娃1" class="mb-2 rounded">
+          <h3 class="text-xl font-semibold">毛毛狐狸</h3>
+          <p>來自搞怪動物園，擁有粉紅尾巴和呆萌雙眼。</p>
+        </div>
+        <div class="bg-pink-100 p-4 rounded-lg shadow">
+          <img src="https://via.placeholder.com/300" alt="娃娃2" class="mb-2 rounded">
+          <h3 class="text-xl font-semibold">哇嗚星人</h3>
+          <p>來自怪怪星球，最愛躲在棉被裡偷看地球人。</p>
+        </div>
+        <div class="bg-pink-100 p-4 rounded-lg shadow">
+          <img src="https://via.placeholder.com/300" alt="娃娃3" class="mb-2 rounded">
+          <h3 class="text-xl font-semibold">暴走兔</h3>
+          <p>小兔子有點暴躁但其實超愛撒嬌，是反差萌代表！</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 聯絡方式 -->
+  <section id="contact" class="py-12 px-6 bg-pink-200 text-center">
+    <h2 class="text-3xl font-bold mb-4">聯絡我們</h2>
+    <p class="text-lg mb-2">歡迎私訊我們的小盒子，或到賣場看看更多商品！</p>
+    <div class="space-x-4">
+      <a href="https://www.instagram.com/bianbian_studio" target="_blank" class="text-blue-800 underline">Instagram｜@bianbian_studio</a>
+      <!-- <a href="#" target="_blank" class="text-blue-800 underline">蝦皮賣場</a> -->
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-pink-300 py-4 text-center">
+    <p class="text-sm">© 2025 BianBian Studio. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
